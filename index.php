@@ -30,6 +30,12 @@
                         <li><a href="#">Artworks</a></li>
                         <li><a href="#">Artists</a></li>
                         <li><a href="#" class="btn t-btn">Contact</a></li>
+                        <li class="dropdown_nav"><a href="#" class="btn t-btn">Login</a>
+                            <ul class="dropdown_nav_box">
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">logout</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +81,7 @@
     <div class="container artist-box">
         <div class="row">
             <div class="col-lg-12">
-                <div class="text text-left">
+                <div class="text text-right">
                     <h1>NEW ARTIST ONLINE</h1>
                 </div>
                 <div class="artist-box">
@@ -97,10 +103,12 @@
             </div>
             <div class="col-lg-9">
                 <div class="artwork-slider">
-                    <img src="assets/images/artwork-01.png" alt="">
-                    <img src="assets/images/artwork-02.png" alt="">
-                    <img src="assets/images/artwork-03.png" alt="">
-                    <img src="assets/images/artwork-04.png" alt="">
+                    <div class="one-time">
+                        <img src="assets/images/artwork-01.png" alt="">
+                        <img src="assets/images/artwork-02.png" alt="">
+                        <img src="assets/images/artwork-03.png" alt="">
+                        <img src="assets/images/artwork-04.png" alt="">
+                    </div>
                 </div>
                 
             </div>

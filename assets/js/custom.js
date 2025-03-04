@@ -31,3 +31,13 @@ $(".blogslid").slick({
     ],
 });
 
+$('.one-time').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+    nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+    autoplay: true,
+    slidesToShow: 1,
+    adaptiveHeight: true
+  });

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
 
-* {
+*{
   margin: 0;
   padding: 0;
 }
@@ -104,7 +104,7 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 60px;
+  gap: 30px;
 }
 
 .menu-box {
@@ -155,4 +155,131 @@ p {
 .scroll-btn:hover {
   transition: .3s;
   border-radius: 10px
+}
+
+.auther-box img {
+  width: 100%;
+}
+
+.main-vertical-space {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.master-card-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 120px;
+  margin-bottom: 100px;
+}
+
+.master-card-box img {
+  width: 190px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.auther-box .text {
+  margin-top: 50px;
+  gap: 100px;
+}
+
+.auther-box .col-lg-7 {
+  border-width: 1px 1px 1px 0px ;
+  border-style: solid ;
+  border-color: black ;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.auther-box .col-lg-5 {
+  border-width: 1px 0px 1px 0px ;
+  border-style: solid ;
+  border-color: black ;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.artist-box {
+  padding: 50px 0;
+}
+
+.artist-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-box img:nth-child(2) {
+  margin: 0 -40px;
+  z-index: 1;
+}
+
+.artist-box img:nth-child(4) {
+  margin: 0 -30px ;
+  z-index: -1;
+}
+
+.dropdown_nav {
+  position: relative;
+  padding:10px 0;
+}
+
+.dropdown_nav_box {
+  flex-direction: column;
+  gap: 10px !important;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  background: #F7F7F7;
+  padding: 15px;
+  border-radius: 15px;
+  transition: .3s;
+  border: 1px solid #EDEDED;
+  display: none !important;
+}
+
+.dropdown_nav:hover .dropdown_nav_box{
+  display:flex !important ;
+  transition:.3s;
+}
+
+.artwork-slider img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.artwork-slider {
+  position: relative;
+}
+
+.artwork-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  bottom: 100%;
+  z-index: 1;
+  background: #F7F7F7;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
+  left: -25%;
+}
+
+.artwork-slider .prev-arrow {
+  left: -33%;
 }
