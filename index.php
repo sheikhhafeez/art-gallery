@@ -1,48 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Gallery</title>
-    <link rel="icon" href="assets/images/fav-icon.png" type="favicon.png" sizes="32x32">
-    <link rel="stylesheet" href="assets/css/lib.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-</head>
-<body>
+<?php include "assets/components/header.php" ?>
 
-    <header class="container main-pad">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="menu-logo">
-                    <img src="assets/images/main-logo.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="menu-box">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Artworks</a></li>
-                        <li><a href="#">Artists</a></li>
-                        <li><a href="#" class="btn t-btn">Contact</a></li>
-                        <li class="dropdown_nav"><a href="#" class="btn t-btn">Login</a>
-                            <ul class="dropdown_nav_box">
-                                <li><a href="#">Dashboard</a></li>
-                                <li><a href="#">logout</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="container hero-banner">
+<div class="container hero-banner">
         <div class="row">
             <div class="col-lg-12">
                 <img src="assets/images/hero-banner.png" alt="">
@@ -115,14 +73,5 @@
         </div>
     </div>
 
+    <?php include "assets/components/footer.php" ?>
 
-    <!-- javascript:void(0) -->
-    <!-- <h1 class="wow fadeInRight" data-wow-duration="3s">hello</h1> -->
-    <script src="assets/js/wow-animate.js"></script>
-    <script src="assets/js/lib.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-
-</body>
-</html>

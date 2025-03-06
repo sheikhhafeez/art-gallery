@@ -1,4 +1,9 @@
-<?php include "backend.php"; ?>
+<?php
+ include "backend.php"; 
+?>
+<?php
+ include "sessioncheck.php"; 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
